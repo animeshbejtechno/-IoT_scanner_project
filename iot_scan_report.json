@@ -1,0 +1,62 @@
+{
+  "title": "IoT Device Vulnerability Assessment Report",
+  "disclaimer": "This report is for authorized security testing only",
+  "scan_date": "2026-03-02T23:47:00.746846",
+  "executive_summary": {
+    "total_devices_scanned": 3,
+    "total_vulnerabilities": 1,
+    "risk_breakdown": {
+      "HIGH": 1
+    }
+  },
+  "devices": [
+    {
+      "ip": "192.168.1.1",
+      "hostname": "Unknown",
+      "open_ports": [],
+      "services": []
+    },
+    {
+      "ip": "192.168.1.4",
+      "hostname": "realme-9-Pro-5G",
+      "open_ports": [],
+      "services": []
+    },
+    {
+      "ip": "192.168.1.7",
+      "hostname": "kali",
+      "open_ports": [],
+      "services": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "ip": "192.168.1.1",
+      "port": 80,
+      "service": "HTTP",
+      "type": "No_HTTPS_Redirect",
+      "risk": "HIGH",
+      "details": "No automatic HTTPS redirect configured"
+    }
+  ],
+  "remediation_guidance": {
+    "CRITICAL": [
+      "Address immediately - system is at critical risk",
+      "Change all default credentials",
+      "Disable insecure protocols (Telnet, FTP)",
+      "Apply latest security patches"
+    ],
+    "HIGH": [
+      "Address within 48 hours",
+      "Update firmware to latest version",
+      "Configure HTTPS and disable HTTP where possible",
+      "Enable authentication on all services"
+    ],
+    "MEDIUM": [
+      "Address within 1-2 weeks",
+      "Review and restrict network access",
+      "Monitor for suspicious activity",
+      "Document all devices and services"
+    ]
+  }
+}

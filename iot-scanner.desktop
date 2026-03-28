@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=IoT Vulnerability Scanner
+Comment=Offensive Security - IoT Device Vulnerability Assessment Tool
+Exec=/home/ani/Desktop/learning/bot/venv/bin/python /home/ani/Desktop/learning/bot/iot_scanner_project/iot_scanner_gui.py
+Icon=security-medium
+Categories=Development;Utilities;
+Terminal=false
+StartupNotify=true

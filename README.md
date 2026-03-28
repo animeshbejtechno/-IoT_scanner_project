@@ -321,9 +321,7 @@ tcpdump -i eth0 -w iot_traffic.pcap
 ## 📞 Support & Contact
 
 For legitimate cybersecurity research questions:
-- Email: security@domain.com
-- Bug reports: security@domain.com
-- Responsible disclosure: Follow guidelines at domain.com/security
+- Email: animeshbej399@gmail.com
 
 ## 📄 License
 

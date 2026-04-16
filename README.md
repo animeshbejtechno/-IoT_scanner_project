@@ -1,8 +1,8 @@
-# 🔒 Offensive Security IoT Device Vulnerability Scanner
+# Offensive Security IoT Device Vulnerability Scanner
 
 A professional-grade tool for identifying security weaknesses in Internet of Things (IoT) devices through comprehensive vulnerability assessment, penetration testing, and security research.
 
-## 📋 Overview
+## Overview
 
 This tool is designed for:
 - **Ethical Hackers** - Learning offensive security concepts
@@ -37,7 +37,7 @@ THIS TOOL IS FOR AUTHORIZED SECURITY TESTING ONLY
 USE RESPONSIBLY AND ETHICALLY
 ```
 
-## 🚀 Features
+##  Features
 
 ### Network Discovery
 - Automated IoT device discovery on network ranges
@@ -69,7 +69,7 @@ USE RESPONSIBLY AND ETHICALLY
 - Remediation guidance for each vulnerability
 - Executive summary with key metrics
 
-## 📦 Installation
+##  Installation
 
 ### Requirements
 ```bash
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 - Install with GUI
 - Then: `pip install -r requirements.txt`
 
-## 🎯 Usage
+## Usage
 
 ### GUI Version (Recommended)
 ```bash
@@ -116,7 +116,7 @@ Edit the script to specify:
 - Network range: `network_range = "192.168.1.0/24"`
 - Target device: `test_ip = "192.168.1.1"`
 
-## 🔐 Vulnerability Categories
+##  Vulnerability Categories
 
 ### 1. Insecure Communication Protocols
 
@@ -180,7 +180,7 @@ Edit the script to specify:
 }
 ```
 
-## 🔧 Remediation Examples
+##  Remediation Examples
 
 ### Fix Telnet/FTP Access
 ```bash
@@ -216,7 +216,7 @@ openssl req -x509 -newkey rsa:4096 -nodes -days 365 -keyout key.pem -out cert.pe
 # Configure service to use HTTPS
 ```
 
-## 📈 Scan Configuration
+## Scan Configuration
 
 ### Aggressive Scan
 ```python
@@ -236,7 +236,7 @@ common_ports = {
 }
 ```
 
-## 🛡️ Best Practices
+##  Best Practices
 
 ### Before Testing
 - [ ] Obtain written authorization
@@ -259,7 +259,7 @@ common_ports = {
 - [ ] Schedule follow-up scan
 - [ ] Archive reports securely
 
-## 🚨 Common Vulnerabilities Found
+##  Common Vulnerabilities Found
 
 ### Device: TP-Link Router
 - Default admin/admin credentials
@@ -279,7 +279,7 @@ common_ports = {
 - Port 1883 open to entire network
 - Cloud communication unencrypted
 
-## 📚 IoT Security Resources
+##  IoT Security Resources
 
 - OWASP IoT Top 10: https://owasp.org/www-project-iot/
 - ICS-CERT Advisories: https://www.cisa.gov/ics-cert/
@@ -323,11 +323,11 @@ tcpdump -i eth0 -w iot_traffic.pcap
 For legitimate cybersecurity research questions:
 - Email: animeshbej399@gmail.com
 
-## 📄 License
+##  License
 
 This tool is provided for educational and authorized testing purposes only.
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 After using this tool, you will understand:
 - ✅ Network reconnaissance techniques
@@ -355,4 +355,4 @@ python3 iot_scanner.py
 
 **Remember: With great power comes great responsibility. Use this tool ethically and legally.**
 
-🔐 **Offensive Security IoT Device Vulnerability Scanner v1.0**
+ **Offensive Security IoT Device Vulnerability Scanner v1.0**
